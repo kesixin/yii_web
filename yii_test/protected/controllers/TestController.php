@@ -50,4 +50,10 @@ class TestController extends Controller
 //        var_dump($posts[1]->categories);
     }
 
+    public function actionService()
+    {
+        $client=new SoapClient('http://localhost/yii_web/yii_test/index.php/stock/quote');
+        echo $client->getPrice('Google');
+    }
+
 }
