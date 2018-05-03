@@ -1,0 +1,553 @@
+2018/04/27 11:40:33 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\xampp\htdocs\yii_web\yii_test\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\xampp\htdocs\yii\framework\web\CAssetManager.php:138
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\yii\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 D:\xampp\htdocs\yii\framework\web\CClientScript.php(462): CAssetManager->publish('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\yii\framework\web\CClientScript.php(499): CClientScript->getCoreScriptUrl()
+#4 D:\xampp\htdocs\yii\framework\web\CClientScript.php(315): CClientScript->getPackageBaseUrl('jquery')
+#5 D:\xampp\htdocs\yii\framework\web\CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(351): CClientScript->render('<!DOCTYPE html>...')
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(788): CController->processOutput('<!DOCTYPE html>...')
+#8 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\SiteController.php(72): CController->render('contact', Array)
+#9 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#14 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#15 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii_web/yii_test/index.php?r=site/contact
+HTTP_REFERER=http://localhost/yii_web/yii_test/index.php?r=site/page&view=about
+---
+2018/04/27 11:40:38 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\xampp\htdocs\yii_web\yii_test\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\xampp\htdocs\yii\framework\web\CAssetManager.php:138
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\yii\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 D:\xampp\htdocs\yii\framework\web\CClientScript.php(462): CAssetManager->publish('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\yii\framework\web\CClientScript.php(499): CClientScript->getCoreScriptUrl()
+#4 D:\xampp\htdocs\yii\framework\web\CClientScript.php(315): CClientScript->getPackageBaseUrl('jquery')
+#5 D:\xampp\htdocs\yii\framework\web\CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(351): CClientScript->render('<!DOCTYPE html>...')
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(788): CController->processOutput('<!DOCTYPE html>...')
+#8 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\SiteController.php(72): CController->render('contact', Array)
+#9 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#14 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#15 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii_web/yii_test/index.php?r=site/contact
+HTTP_REFERER=http://localhost/yii_web/yii_test/index.php?r=site/page&view=about
+---
+2018/04/27 11:41:04 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\xampp\htdocs\yii_web\yii_test\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\xampp\htdocs\yii\framework\web\CAssetManager.php:138
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\yii\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 D:\xampp\htdocs\yii\framework\web\CClientScript.php(462): CAssetManager->publish('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\yii\framework\web\CClientScript.php(499): CClientScript->getCoreScriptUrl()
+#4 D:\xampp\htdocs\yii\framework\web\CClientScript.php(315): CClientScript->getPackageBaseUrl('jquery')
+#5 D:\xampp\htdocs\yii\framework\web\CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(351): CClientScript->render('<!DOCTYPE html>...')
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(788): CController->processOutput('<!DOCTYPE html>...')
+#8 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\SiteController.php(72): CController->render('contact', Array)
+#9 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#14 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#15 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii_web/yii_test/index.php?r=site/contact
+HTTP_REFERER=http://localhost/yii_web/yii_test/index.php?r=site/page&view=about
+---
+2018/04/27 11:41:06 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\xampp\htdocs\yii_web\yii_test\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\xampp\htdocs\yii\framework\web\CAssetManager.php:138
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\yii\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 D:\xampp\htdocs\yii\framework\web\CClientScript.php(462): CAssetManager->publish('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\yii\framework\web\CClientScript.php(499): CClientScript->getCoreScriptUrl()
+#4 D:\xampp\htdocs\yii\framework\web\CClientScript.php(315): CClientScript->getPackageBaseUrl('jquery')
+#5 D:\xampp\htdocs\yii\framework\web\CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(351): CClientScript->render('<!DOCTYPE html>...')
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(788): CController->processOutput('<!DOCTYPE html>...')
+#8 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\SiteController.php(72): CController->render('contact', Array)
+#9 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#14 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#15 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii_web/yii_test/index.php?r=site/contact
+HTTP_REFERER=http://localhost/yii_web/yii_test/index.php?r=site/page&view=about
+---
+2018/04/27 11:49:17 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php?r=site/index
+HTTP_REFERER=http://test.com/index.php?r=site/page&view=about
+---
+2018/04/27 11:49:21 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2018/04/27 11:49:29 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2018/04/27 11:49:34 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2018/04/27 11:49:49 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php
+---
+2018/04/27 11:50:39 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php
+---
+2018/04/27 11:52:48 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2018/04/27 11:53:18 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2018/04/27 11:53:57 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2018/04/27 11:53:58 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2018/04/27 11:55:45 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php/site/contact
+---
+2018/04/27 11:55:47 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.enablePrettyUrl" is not defined.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('enablePrettyUrl', true)
+#1 D:\xampp\htdocs\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 D:\xampp\htdocs\yii\framework\base\CApplication.php(510): CModule->getComponent('urlManager')
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/index.php/site/contact
+---
+2018/04/27 16:59:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test.com/
+---
+2018/04/27 16:59:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test.com/
+---
+2018/04/27 17:00:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test.com/
+---
+2018/04/28 10:23:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test.com/test/index
+---
+2018/04/28 10:31:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1036 Table 'C:\Users\shuai\AppData\Local\Temp\#sqlecc_c_0' is read only. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_post`.
+in D:\xampp\htdocs\yii_web\yii_test\protected\models\Post.php (8)
+in D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php (23)
+in D:\xampp\htdocs\yii_web\yii_test\index.php (13)
+2018/04/28 10:31:16 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "Post" 对应的 table "tbl_post".' in D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Post))
+#1 D:\xampp\htdocs\yii_web\yii_test\protected\models\Post.php(8): CActiveRecord::model('Post')
+#2 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(23): Post::model()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionFind()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('find')
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/find')
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/find
+---
+2018/04/28 14:17:00 [error] [exception.CException] exception 'CException' with message '属性 "User.post" 未被定义.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('post')
+#1 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(45): CActiveRecord->__get('post')
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('relation')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/relation')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/relation
+---
+2018/04/28 14:23:48 [error] [exception.CDbException] exception 'CDbException' with message '关联 "author" 未被定义在 active record class "Post" 中.' in D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php:211
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(281): CActiveFinder->buildJoinTree(Object(CJoinElement), 'author')
+#1 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1301): CActiveFinder->__construct(Object(Post), Array)
+#3 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#4 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(47): CActiveRecord->findAll()
+#5 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('relation')
+#10 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/relation')
+#11 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/test/relation
+---
+2018/04/28 14:26:20 [error] [php] include(Category.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#1 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(215): model()
+#2 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(281): CActiveFinder->buildJoinTree()
+#3 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#4 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1301): CActiveFinder->__construct()
+#5 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1416): Post->query()
+#6 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(49): Post->findAll()
+#7 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(286): TestController->runAction()
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TestController->run()
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/relation
+in D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php (49)
+in D:\xampp\htdocs\yii_web\yii_test\index.php (13)
+2018/04/28 14:26:28 [error] [php] include(Category.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#1 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(215): model()
+#2 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(281): CActiveFinder->buildJoinTree()
+#3 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#4 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1301): CActiveFinder->__construct()
+#5 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1416): Post->query()
+#6 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(49): Post->findAll()
+#7 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(286): TestController->runAction()
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TestController->run()
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/relation
+in D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php (49)
+in D:\xampp\htdocs\yii_web\yii_test\index.php (13)
+2018/04/28 14:28:40 [error] [php] include(Category.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#1 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(215): model()
+#2 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(281): CActiveFinder->buildJoinTree()
+#3 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#4 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1301): CActiveFinder->__construct()
+#5 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1416): Post->query()
+#6 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(49): Post->findAll()
+#7 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(286): TestController->runAction()
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TestController->run()
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/relation
+in D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php (49)
+in D:\xampp\htdocs\yii_web\yii_test\index.php (13)
+2018/04/28 14:31:38 [error] [php] include(CActiceRecord.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\xampp\htdocs\yii_web\yii_test\protected\models\Category.php(5): spl_autoload_call()
+#1 D:\xampp\htdocs\yii\framework\YiiBase.php(432): include()
+#2 unknown(0): autoload()
+#3 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#4 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(215): model()
+#5 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(281): CActiveFinder->buildJoinTree()
+#6 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#7 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1301): CActiveFinder->__construct()
+#8 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1416): Post->query()
+#9 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(49): Post->findAll()
+#10 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(286): TestController->runAction()
+#13 D:\xampp\htdocs\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#14 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TestController->run()
+#15 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/relation
+in D:\xampp\htdocs\yii_web\yii_test\protected\models\Category.php (5)
+in D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php (49)
+in D:\xampp\htdocs\yii_web\yii_test\index.php (13)
+2018/04/28 14:33:27 [error] [php] include(CActiceRecord.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\xampp\htdocs\yii_web\yii_test\protected\models\Category.php(4): spl_autoload_call()
+#1 D:\xampp\htdocs\yii\framework\YiiBase.php(432): include()
+#2 unknown(0): autoload()
+#3 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#4 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(215): model()
+#5 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(281): CActiveFinder->buildJoinTree()
+#6 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#7 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1301): CActiveFinder->__construct()
+#8 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1416): Post->query()
+#9 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(49): Post->findAll()
+#10 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#11 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\xampp\htdocs\yii\framework\web\CController.php(286): TestController->runAction()
+#13 D:\xampp\htdocs\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#14 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TestController->run()
+#15 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/relation
+in D:\xampp\htdocs\yii_web\yii_test\protected\models\Category.php (4)
+in D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php (49)
+in D:\xampp\htdocs\yii_web\yii_test\index.php (13)
+2018/04/28 14:35:30 [error] [exception.CException] exception 'CException' with message '属性 "Post.category" 未被定义.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('category')
+#1 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(50): CActiveRecord->__get('category')
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('relation')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/relation')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/relation
+---
+2018/04/28 14:35:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1036 Table 'C:\Users\shuai\AppData\Local\Temp\#sqlecc_3e_0' is read only. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_post`.
+in D:\xampp\htdocs\yii_web\yii_test\protected\models\Post.php (8)
+in D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php (49)
+in D:\xampp\htdocs\yii_web\yii_test\index.php (13)
+2018/04/28 14:35:39 [error] [exception.CDbException] exception 'CDbException' with message '数据库中无法找到 active record class "Post" 对应的 table "tbl_post".' in D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Post))
+#1 D:\xampp\htdocs\yii_web\yii_test\protected\models\Post.php(8): CActiveRecord::model('Post')
+#2 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(49): Post::model()
+#3 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('relation')
+#8 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/relation')
+#9 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/relation
+---
+2018/04/28 14:35:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 6 Error on delete of 'C:\Users\shuai\AppData\Local\Temp\#sqlecc_3f_3.MYD' (Errcode: 13). The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_post_category`.
+in D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php (49)
+in D:\xampp\htdocs\yii_web\yii_test\index.php (13)
+2018/04/28 14:35:47 [error] [exception.CDbException] exception 'CDbException' with message 'active record class "Post" 中的关联 "categories" 未被正确指明: 数据库中无法找到 foreign key 中所给的 join table "tbl_post_category".' in D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php:990
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(1242): CJoinElement->getJoinCondition()
+#1 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(748): CJoinQuery->join(Object(CJoinElement))
+#2 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(420): CJoinElement->buildQuery(Object(CJoinQuery))
+#3 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(49): CActiveRecord->findAll()
+#7 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('relation')
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/relation')
+#13 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/test/relation
+---
+2018/04/28 14:37:01 [error] [exception.CException] exception 'CException' with message '属性 "Post.category" 未被定义.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('category')
+#1 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(50): CActiveRecord->__get('category')
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('relation')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/relation')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/relation
+---
+2018/04/28 14:37:10 [error] [exception.CException] exception 'CException' with message '属性 "Post.category" 未被定义.' in D:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('category')
+#1 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(50): CActiveRecord->__get('category')
+#2 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#3 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('relation')
+#7 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/relation')
+#8 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test/relation
+---
+2018/04/28 14:37:38 [error] [php] Trying to get property of non-object (D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php:50)
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(286): TestController->runAction()
+#1 D:\xampp\htdocs\yii\framework\web\CController.php(265): TestController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TestController->run()
+#3 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/relation
+in D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php (50)
+in D:\xampp\htdocs\yii_web\yii_test\index.php (13)
+2018/04/28 14:39:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY000]: General error: 1036 Table 'C:\Users\shuai\AppData\Local\Temp\#sqlecc_47_3' is read only. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_post_category`.
+in D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php (49)
+in D:\xampp\htdocs\yii_web\yii_test\index.php (13)
+2018/04/28 14:39:06 [error] [exception.CDbException] exception 'CDbException' with message 'active record class "Post" 中的关联 "categories" 未被正确指明: 数据库中无法找到 foreign key 中所给的 join table "tbl_post_category".' in D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php:990
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(1242): CJoinElement->getJoinCondition()
+#1 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(748): CJoinQuery->join(Object(CJoinElement))
+#2 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(420): CJoinElement->buildQuery(Object(CJoinQuery))
+#3 D:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1302): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\xampp\htdocs\yii_web\yii_test\protected\controllers\TestController.php(49): CActiveRecord->findAll()
+#7 D:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TestController->actionRelation()
+#8 D:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('relation')
+#12 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('test/relation')
+#13 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/test/relation
+---
+2018/05/03 16:49:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii_web\yii_test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://test.com/
+---
